@@ -1,0 +1,33 @@
+.box {
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid #d5d5d4;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f0ede8;
+  margin: 0;         
+  padding: 16px;
+}
+.card {
+  max-width: 600px;             
+  margin: 0 auto;              
+  padding: 24px;               
+  background-color:#cccbca;    
+  border: 4px #d5d5d4 solid;     
+  border-radius: 8px;          
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+}
+.card h1 {
+  color: #5a5858;      
+  font-size: 2rem;     
+  margin-bottom: 16px;  
+}
+
+.card p {
+  color:#5a5858;      
+  font-size: 1rem;      
+  margin-bottom: 12px;  
+  line-height: 1.5;    
