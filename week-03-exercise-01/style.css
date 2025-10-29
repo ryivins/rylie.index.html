@@ -24,13 +24,6 @@ body {
   color: #5a5858;      
   font-size: 2rem;     
   margin-bottom: 16px;
-    max-width: 600px;             
-  margin: 0 auto;              
-  padding: 24px;               
-  background-color:  #bda160;    
-  border: 4px  #a68d54 solid;     
-  border-radius: 8px;          
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);  
 }
 
 .card p {
