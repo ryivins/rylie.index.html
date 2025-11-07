@@ -79,3 +79,15 @@ main>p {
     margin-bottom: 0;
     line-height: 1.6;
 }
+
+@media (width >= 480px) {
+  .collection-card {
+    flex: 1 1 45%;
+  }
+}
+
+@media (width >= 1024px) {
+  .collection-card {
+    flex: 1 1 30%;
+  }
+}
