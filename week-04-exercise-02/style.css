@@ -54,7 +54,6 @@ main>p {
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: #fafafa;
     min-width: 0px;
-
 }
 
 .collection-card img {
@@ -62,8 +61,6 @@ main>p {
     height: 200px;       
     object-fit: fill;     
     display: block;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    margin-bottom: 16px;
 }
 .collection-card h2 {
     font-size: 24px;
@@ -84,12 +81,9 @@ main>p {
 }
 
 .collection-card .description {
-     font-size: 1rem;           
-    line-height: 1.6;
-    color: rgba(0, 0, 0, 0.85);
-    text-align: center;        
-    margin: 0 auto;           
-    max-width: fit-content; 
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
     overflow-wrap: anywhere;
     word-break: break-word;
     hyphens: auto;
