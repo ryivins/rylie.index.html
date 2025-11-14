@@ -120,9 +120,9 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }  
 
-.button-05.button-05:multiply {
+.button-05:active {
      background-color: #34d399;
-     transform: scale(1.1);
+     transform: scale(5);
 }
 
 .button-06 {
