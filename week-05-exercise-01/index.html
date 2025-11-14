@@ -40,8 +40,8 @@
         </section>
 
         <section class="button-section">
-            <h2>Button Style 05:It's just an Orange Button!</h2>
-            <p>This button will not do anything if you click it.</p>
+            <h2>Button Style 05:The button of multiples</h2>
+            <p>This button will multiply each time you click it.</p>
             <button class="button-05">Click Me</button>
         </section>
 
@@ -51,6 +51,24 @@
             <button class="button-06">Hover Me</button>
         </section>
     </div>
+
+    <script>
+    function duplicateButton(event) {
+        const button = event.target;
+    
+        const newBtn = document.createElement('button');
+        newBtn.textContent = "Multiply Me";
+        newBtn.className = "multiply-btn";
+
+        newBtn.addEventListener('click', duplicateButton);
+
+        button.after(newBtn);
+    }
+
+    const firstBtn = document.querySelector('.multiply-btn');
+    firstBtn.addEventListener('click', duplicateButton);
+</script>
+
 </body>
 
 </html>

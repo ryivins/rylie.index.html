@@ -118,7 +118,12 @@ button {
     padding: 16px 32px;
     border: 2px solid #f59e0b;
     transition: background-color 0.3s ease, transform 0.3s ease;
-}   
+}  
+
+.button-05.button-05:multiply {
+     background-color: #34d399;
+     transform: scale(1.1);
+}
 
 .button-06 {
     background-color: #a91fff;
