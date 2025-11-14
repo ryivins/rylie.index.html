@@ -135,7 +135,8 @@ button {
 }
 
 .button-06::after {
-    content: "Hello!";
+    content: "Hello!"; color: #ffffff;
+    color: #ffffff;
     position: absolute;
     left: 0;
     right: 0;
