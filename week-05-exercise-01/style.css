@@ -117,38 +117,29 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #f59e0b;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transition: 0.3s ease,
 }
+.button-05.look2 {
+    background-color: #4db6ac;
+    transform: scale(1.05);
+}
+.button-05.look3 {
+    background-color: #65e5ff;
+    transform: rotate(2deg);
+}   
 
-.button-05:active {
-    background-color: #b45309;
-    color: #ffe7a3;
-    border-color: #b45309;
-}
+.button-05.look4 {
+    background-color: #ba68c8;
+    transform: translateY(-4px);
+}   
 
 .button-06 {
-    background-color: #ff781f;
+    background-color: #a91fff;
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #ff781f;
     transition: background-color 0.3s ease;
 }
-
-.button-06::after {
-    content: "Hello!"; color: #ffffff;
-    color: #ffffff;
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.button-06:hover::after {
-    opacity: 1;
-}
-
 .button-06:hover {
-    color: transparent;
-} 
+    transform: rotate(360deg);
+}
