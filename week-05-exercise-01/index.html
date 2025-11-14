@@ -52,4 +52,21 @@
     </div>
 </body>
 
+<script>
+    const btn5 = document.querySelector('.button-05');
+    let look = 1;
+
+    btn5.addEventListener('click', () => {
+        look++;
+
+        if (look > 4) look = 1;
+
+        btn5.classList.remove('look2', 'look3', 'look4');
+
+        if (look === 2) btn5.classList.add('look2');
+        if (look === 3) btn5.classList.add('look3');
+        if (look === 4) btn5.classList.add('look4');
+    });
+</script>
+
 </html>

@@ -117,7 +117,7 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #f59e0b;
-    transition: 0.3s ease,
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .button-05.look2 {
     background-color: #4db6ac;
@@ -138,7 +138,7 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #ff781f;
-    transition: background-color 0.3s ease;
+    transition: transform 0.6s ease;
 }
 .button-06:hover {
     transform: rotate(360deg);
