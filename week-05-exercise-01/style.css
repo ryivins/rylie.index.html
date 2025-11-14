@@ -62,17 +62,17 @@ button {
 }
 
 .button-01 {
-    background-color: #0066CC;
+    background-color: #4d7926;
     color: #ffffff;
     padding: 16px 32px;
-    border: 2px solid #0066CC;
+    border: 2px solid #4d7926;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .button-01:hover {
-    background-color: #ffffff;
-    color: #0066CC;
-    border-color: #0066CC;
+    background-color: #ab23a8;
+    color: #ffc2fe;
+    border-color: #ab23a8;
 }
 
 .button-02 {
@@ -87,3 +87,67 @@ button {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.button-03 {
+    background-color: #1e86a2;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #1e86a2;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-03:active {
+    background-color: #63cdda;
+    border-color: #63cdda;
+}
+
+.button-04 {
+    background-color: #af1c39;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #af1c39;
+    transition: transform 0.3s ease;
+}
+.button-04:hover {
+    transform: scale(1.1);
+}
+
+.button-05 {
+    background-color: #f59e0b;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #f59e0b;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-05:active {
+    background-color: #b45309;
+    color: #ffe7a3;
+    border-color: #b45309;
+}
+
+.button-06 {
+    background-color: #ff781f;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #ff781f;
+    transition: background-color 0.3s ease;
+}
+
+.button-06::after {
+    content: "Hello!";
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.button-06:hover::after {
+    opacity: 1;
+}
+
+.button-06:hover {
+    color: transparent;
+} 
