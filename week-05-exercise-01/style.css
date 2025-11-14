@@ -121,16 +121,13 @@ button {
 }
 .button-05.look2 {
     background-color: #4db6ac;
-    transform: scale(1.05);
 }
 .button-05.look3 {
     background-color: #65e5ff;
-    transform: rotate(2deg);
 }   
 
 .button-05.look4 {
     background-color: #ba68c8;
-    transform: translateY(-4px);
 }   
 
 .button-06 {
