@@ -8,24 +8,6 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<script>
-    const btn5 = document.querySelector('.button-05');
-    let look = 1;
-
-    btn5.addEventListener('click', () => {
-        look++;
-
-        if (look > 4) look = 1;   // Cycle 1 → 2 → 3 → 4 → 1
-
-        // Remove old looks
-        btn5.classList.remove('look2', 'look3', 'look4');
-
-        // Apply the new look
-        if (look === 2) btn5.classList.add('look2');
-        if (look === 3) btn5.classList.add('look3');
-        if (look === 4) btn5.classList.add('look4');
-    });
-</script>
 
 <body>
     <div class="container">
@@ -58,8 +40,8 @@
         </section>
 
         <section class="button-section">
-            <h2>Button Style 05:Click and Click again</h2>
-            <p>This button changes its appearance each time you click it</p>
+            <h2>Button Style 05:Its a Ghost!</h2>
+            <p>This button will disapear for 3 seconds each time you click it</p>
             <button class="button-05">Click Me</button>
         </section>
 
