@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 2;
   color: #111111;
-  background-color: #ffffff;
+  background-color: #c6f5fb;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -57,12 +57,12 @@ li {
 }
 
 a {
-  color: #0066CC;
+  color: #085c83;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #004499;
+  color: #085c83;
 }
 
 code {
@@ -113,7 +113,7 @@ code {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #333333;
+  background-color: #373737;
   padding: 0 32px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
