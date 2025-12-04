@@ -7,7 +7,7 @@
 .card {
   max-width: 1200px;
   width: 100%;
-  margin: 3rem auto;
+  margin: 1.5rem auto;
   padding: 3rem 2rem;
   text-align: left;
 }
@@ -20,14 +20,14 @@ body {
   background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000000 100%);
   min-height: 100vh;
   display: flex;
-  flex-direction: horizontal;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
   display: block;
   max-width: 1200px;
-  margin: 6rem auto 4rem;
+  margin: 2reem auto;
   padding: 3rem 2rem 3rem;
   background-color: rgba(15, 23, 42, 0.9);
   border-radius: 1.25rem;
@@ -63,7 +63,6 @@ ol {
   margin-bottom: 1rem;
 }
 
-/* Links */
 a {
   color: #38bdf8;
   text-decoration: none;
@@ -73,7 +72,6 @@ a:hover {
   color: #7dd3fc;
 }
 
-/* Navigation (unused unless added to HTML) */
 .nav-simple {
   position: fixed;
   left: 32px;
