@@ -27,7 +27,7 @@ body {
 main {
   display: block;
   max-width: 1200px;
-  margin: 2reem auto;
+  margin: 2rem auto 4rem;
   padding: 3rem 2rem 3rem;
   background-color: rgba(15, 23, 42, 0.9);
   border-radius: 1.25rem;
