@@ -9,7 +9,7 @@
   width: 100%;
   margin: 3rem auto;
   padding: 3rem 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -20,21 +20,20 @@ body {
   background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000000 100%);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: horizontal;
+  align-items: flex-start;
 }
 
 main {
   display: block;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 6rem auto 4rem;
-  padding: 2rem 1.5rem 3rem;
+  padding: 3rem 2rem 3rem;
   background-color: rgba(15, 23, 42, 0.9);
   border-radius: 1.25rem;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
 }
 
-/* Typography */
 h1,
 h2,
 h3 {
